@@ -3,11 +3,11 @@ on:
   pull_request:
     types:
       - opened
-    branches:
-      - main
+      - closed
   push:
     branches:
-      - main
+      - "main"
+      - "releases/**"
 jobs:
   deploy:
     runs-on: ubuntu-latest
