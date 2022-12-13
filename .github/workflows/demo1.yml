@@ -10,7 +10,7 @@ on:
     branches:
       - main
     path-ignore:
-      - '.github/workflows/**'
+      - '.github/**'
 jobs:
   deploy:
     runs-on: ubuntu-latest
