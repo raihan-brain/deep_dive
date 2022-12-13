@@ -1,11 +1,14 @@
 .help-box {
-  padding: 1rem;
-  border-radius: 4px;
-  margin: 1;
-  flex: 1;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1;
+    flex: 1;
 }
 
+
+/* helper box */
+
 .help-box h2 {
-  color: #97a2a2;
-  font-size: 1.05rem;
+    color: #97a2a2;
+    font-size: 1.05rem;
 }
