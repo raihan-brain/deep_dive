@@ -1,13 +1,9 @@
 name: Events Demo 1
+## events
 on:
   pull_request:
     types:
       - opened
-      - closed
-  push:
-    branches:
-      - "main"
-      - "releases/**"
 jobs:
   deploy:
     runs-on: ubuntu-latest
