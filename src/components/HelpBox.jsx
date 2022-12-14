@@ -11,7 +11,7 @@ function HelpBox({ title, text }) {
   );
 }
 
-// prop types testing git workflow, changed workflow
+// prop types testing git workflow
 HelpBox.propTypes = {
   title: string,
   text: string,
