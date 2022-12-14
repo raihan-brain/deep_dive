@@ -9,6 +9,7 @@ function MainContent() {
     setHelpVisible((isVisible) => !isVisible);
   }
 
+  // added hashFiles function in github workflow
   return (
     <main>
       <button onClick={toggleHelp}>{helpVisible ? 'Hide' : 'Show'} Help</button>
